@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <div class="center">
+    {% include navigation.html %}
+    <h1 class="master">Praxis Plückelmann</h1>
+       <table class="main_table">
+          <tr>
+            <td class="main_table">
+
+                {% include generic-info.html %}
+
+            </td>
+
+                <!-- Right -->
+
+            <td>
+
+                {{ content }}
+
+            </td>
+         </tr>
+      </table>
+
+  <hr>
+     </div>
+  </body>
+</html>

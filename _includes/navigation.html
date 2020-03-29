@@ -1,0 +1,19 @@
+<nav>
+  <table  class="nav_class">
+  <tr>  
+  {% for item in site.data.navigation %}
+    <td class="nav_class">
+    <a  href="{{ item.link }}" 
+                  {% if page.url == item.link %}
+                       class="nav_current"
+                  {% else %}
+                       class="nav_class"
+                  {% endif %}>
+            {{ item.name }}
+    </a>
+    </td>
+  {% endfor %}
+
+  </tr>  
+  </table>
+</nav>

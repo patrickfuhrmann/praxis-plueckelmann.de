@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Praxis Info
+  link: /reisemedizin.html
+- name: Team
+  link: /staff.html
+- name: Impressum
+  link: /impressum.html

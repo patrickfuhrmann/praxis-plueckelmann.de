@@ -1,0 +1,134 @@
+/*
+ *    Navigator
+ */
+a.nav_class {
+  text-decoration: none;
+  color: white;
+  font-weight: normal ;
+}
+table.nav_class {
+    width: 100% ;
+    border-spacing:30px;
+}
+td.nav_class {
+    text-align: center ;
+    background-color: #bbb;
+    color: white;
+    padding: 5px ;
+}
+.nav_current {
+  text-decoration: none;
+  color: orange;
+}
+/*
+ *  picture box
+ */
+img.pic_box {
+   width: 200px ;
+   box-shadow: 5px 5px;
+}
+table.pic_box {
+   border-style: solid ;
+   border-width: 1px;
+   border-color: #444;
+   border-radius: 5px;
+   box-shadow: 2px 2px #ccc ;
+}
+td.pic_box {
+   padding: 10px ;
+   background:  white ;
+}
+.special {
+   border-style: solid ;
+   border-width: 1px ;
+   border-color: blue ;
+   border-radius: 5px;
+   background-color: orange;
+   padding: 5px ;
+   color: black;
+}
+div.warning {
+   font-weight: normal ;
+   color: #555;
+   font-size: 16px ;
+   padding: 20px ;
+   vertical-align: top;
+}
+table.main_table {
+   width: 100% ;
+}
+td.main_table {
+    width: 200px;
+    border-right-style: solid;
+    border-right-width: 3px ;
+    border-right-color: gray;
+    vertical-align: top;
+}
+.address_info {
+
+  font-weight: normal;
+  font-size: 14px ;
+  color: #555 ;
+  background-color: white;
+  padding: 15px ;
+  vertical-align: top;
+}
+
+.address_box {
+
+  font-weight: normal;
+  color: Blue ;
+  text-align: center;
+  background-color: green;
+  margin: auto;
+
+}
+h1.master {
+  text-align: center ;
+  font-family: Verdana, Geneva, sans-serif ;
+  font-weight: normal;
+  font-size: 40pt ;
+  color: #777 ;
+  text-shadow: 2px 2px #ccc ;
+}
+h2.master , h3.master , h4.master , h5.master {
+  text-align: left ;
+  font-family: Verdana, Geneva, sans-serif ;
+  font-weight: normal;
+  font-size: 32pt ;
+  color: #777 ;
+  text-shadow: none ;
+}
+h3.master {
+   font-size:28px ;
+   text-shadow: none ;
+}
+h4.master {
+   font-size:24px ;
+   text-shadow: none ;
+}
+h5.master {
+   font-size:20px ;
+   text-shadow: none ;
+   color: #555 ;
+}
+body {
+    background-color: white; 
+}
+.center {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border: 2px solid white;
+  font-family: Verdana, Geneva, sans-serif ;
+  font-weight: bold;
+  font-size: 14pt ;
+}
+.timetable {
+   text-align: center;
+}
+.important_link {
+  color: orange;
+  text-decoration: none;
+}
