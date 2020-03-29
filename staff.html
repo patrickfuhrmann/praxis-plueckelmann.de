@@ -1,0 +1,21 @@
+---
+layout: default
+title: Staff
+---
+  {% for author in site.authors %}
+<!--
+      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+-->
+      <h2 class="master">{{ author.name }}</a></h2>
+      <table class="pic_box">
+      <tr>
+      <td class="pic_box"> 
+         <img class="pic_box" src={{ author.picture }}>
+      </td>
+      <td class="pic_box">
+          <h5 class="master">{{ author.position }}</h5>
+          <div class="warning">{{ author.content  }}</div>
+      </td>
+      </tr>
+      </table>
+  {% endfor %}
