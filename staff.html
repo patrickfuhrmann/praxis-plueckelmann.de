@@ -7,6 +7,15 @@ title: Staff
       <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
 -->
       <h2 class="master">{{ author.name }}</a></h2>
+      {% capture author_picture %} {{ author.picture }} {% endcapture %}
+      {% capture author_position %} {{ author.position }} {% endcapture %}
+      {% capture author_content %} {{ author.content }} {% endcapture %}
+      {% include pic_box.html 
+         picture  = author_picture 
+         position = author_picture 
+         content  = author_content 
+      %}
+<!--
       <table class="pic_box">
       <tr>
       <td class="pic_box"> 
@@ -18,4 +27,6 @@ title: Staff
       </td>
       </tr>
       </table>
-  {% endfor %}
+-->
+
+   {% endfor%}
