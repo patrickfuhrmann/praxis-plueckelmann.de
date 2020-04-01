@@ -125,7 +125,11 @@ body {
   font-weight: bold;
   font-size: 14pt ;
 }
-.timetable {
+div.timetable {
+   margin: auto;
+}
+table.timetable {
+   margin: auto;
    text-align: center;
 }
 .important_link {
