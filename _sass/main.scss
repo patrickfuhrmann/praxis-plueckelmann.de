@@ -38,7 +38,26 @@ td.pic_box {
    padding: 10px ;
    background:  white ;
 }
+div.message_of_the_day {
+
+   border-style: solid ;
+   border-width: 1px ;
+   border-color: black ;
+   border-radius: 5px;
+   box-shadow: 2px 2px #ccc ;
+
+   padding: 20px ;
+
+   background-color: white;
+   color: #555 ;
+
+   font-weight: normal ;
+   font-size: 16px ;
+   vertical-align: top;
+
+}
 .special {
+   vertical-align: top;
    border-style: solid ;
    border-width: 1px ;
    border-color: blue ;
